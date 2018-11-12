@@ -1,0 +1,25 @@
+.Header{
+    background-color: #b43;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+div{
+    display: flex;
+    background-color: #b43;
+    color:#fff;
+    flex-direction: row;
+
+}
+
+.Contact{
+    background-color: #b43;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+a{
+    color: #000000;
+}
