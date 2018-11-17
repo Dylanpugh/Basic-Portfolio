@@ -25,7 +25,7 @@
     border: 20px solid;
     border-color: #dddddd;
     justify-content: space-evenly;
-    width: 960px;
+    flex-wrap: wrap;
 
 }
 
@@ -104,7 +104,6 @@ hr{
     font-weight: bolder;
     margin-right: 0px;
     margin-left: 40%;
-    background-color: #4aaaa5;
     width: 135px;
     justify-content: center;
     text-align: center;
