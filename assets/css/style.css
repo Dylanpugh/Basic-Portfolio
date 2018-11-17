@@ -1,5 +1,5 @@
 .Header{
-    background-color: #7fdbff;
+    background-color: #4aaaa5;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -8,17 +8,23 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: bolder;
+    border: 20px solid;
+    border-color: #cccccc
+
 }
 
 .info{
     display: flex;
-    background-color: #fff;
-    color:#000;
+    background-color: #dddddd;
+    color:#777777;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     margin-right: 20px;
     margin-left: 10px;
+    border: 20px solid;
+    border-color: #dddddd;
+    justify-content: space-evenly;
 
 }
 
@@ -30,7 +36,7 @@
 }
 
 a{
-    color: #000;
+    color: #777777;
     font-size: smaller;
     display: flex;
     padding: 25px;
@@ -39,31 +45,31 @@ a{
 }
 
 a:hover{
-    color: #7fdbff;
+    color: #4aaaa5;
 }
 
 .link{
-    color: #000000;
+    color: #777777;
     padding:20px;
 }
 
 #footer{
-    background-color: #fff;
-    padding: none;
+    background-color: #666666;
+    padding: 20px;
     text-align: center;
-    font-size: smaller;
-    color:#000;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 100px;
 }
 
 body{
-    background-color: #fff;
+    background-color: #cccccc;
 }
 
 img{ 
     border: 15px solid;
-    border-color: #7fdbff;
+    border-color: #dddddd;
     margin-right: 15px;
 }
 
@@ -83,8 +89,7 @@ hr{
 }
 
 .pagetitle{
-    background-color: #7fdbff;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 20px;
     text-align: left;
     color:#000000;
@@ -92,4 +97,5 @@ hr{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: bolder;
+    margin-right: 0px;
 }
